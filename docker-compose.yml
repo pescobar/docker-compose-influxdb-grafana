@@ -22,8 +22,10 @@ services:
     volumes:
       - grafana_data:/var/lib/grafana
       # files in this volume will configure the influxdb datasource in grafana
+      # and will also load some grafana dashboards
       - ./grafana/provisioning/:/etc/grafana/provisioning/
-    depends_on: 
+      - ./grafana/dashboards/:/var/lib/grafana/dashboards/
+    depends_on:
       - influxdb
     restart: unless-stopped
 
