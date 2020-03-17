@@ -58,7 +58,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "${DS_INFLUX}",
+          "datasource": "InfluxDB",
           "editable": true,
           "error": false,
           "format": "short",
@@ -166,7 +166,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "${DS_INFLUX}",
+          "datasource": "InfluxDB",
           "editable": true,
           "error": false,
           "format": "bytes",
@@ -274,7 +274,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "${DS_INFLUX}",
+          "datasource": "InfluxDB",
           "editable": true,
           "error": false,
           "format": "bytes",
@@ -382,7 +382,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "${DS_INFLUX}",
+          "datasource": "InfluxDB",
           "editable": true,
           "error": false,
           "format": "bytes",
@@ -837,7 +837,7 @@
     "list": [
       {
         "current": {},
-        "datasource": "${DS_INFLUX}",
+        "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": false,
         "label": "Server",
@@ -850,7 +850,7 @@
       },
       {
         "current": {},
-        "datasource": "${DS_INFLUX}",
+        "datasource": "InfluxDB",
         "hide": 0,
         "includeAll": true,
         "label": "Response code",
